@@ -22,8 +22,11 @@ public class Game {
         List<String> result = new ArrayList<>();
         for (GameNumber gameNumber : gameNumbers) {
             result.add(gameNumber.toString());
+
         }
         return result;
     }
+
+
 
 }
